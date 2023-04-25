@@ -4,4 +4,7 @@ LOGIN,LOGOUT AND PASSWORDS (change/reset password,username)
 NEW USER CREDENTIALS(Full Names,Email,Contact information,Address)
 HOSPITAL INFORMATION (contact information,branches)
 DRUG INFORMATION (Categories,cost,manufacturer,drug_name,stock_remaining,Form_of_drug,images,quantity)
-
+PATIENT PRESCRIPTION(dosage,drug_name)
+DIFFERENT TYPE OF USERS (PATIENT,PHARMACIST ,DOCTOR)
+PAYMENT METHODS(M-PESA,CARDS,PAYPAL,PAYONEER,CASH ON DELIVERY,CASH ON PICKUP)
+FEEDBACK(Reviews,Ratings)
