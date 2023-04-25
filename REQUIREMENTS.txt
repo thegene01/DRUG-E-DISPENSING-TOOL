@@ -1,0 +1,7 @@
+PATIENT PROFILE INFORMATION(Clinic ID Source of Patient Type of Treatment Start Date Transfer In Family Name and First Name Language Gender Link Patient Age (years) Weight Height BSA Address, City, State/Province, District Contact Person and Tel )
+MEDICAL HISTORY( Past health history,family history,Cultural assessmentFunctional assessment (including activities of daily living))
+LOGIN,LOGOUT AND PASSWORDS (change/reset password,username)
+NEW USER CREDENTIALS(Full Names,Email,Contact information,Address)
+HOSPITAL INFORMATION (contact information,branches)
+DRUG INFORMATION (Categories,cost,manufacturer,drug_name,stock_remaining,Form_of_drug,images,quantity)
+
