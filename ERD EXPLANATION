@@ -1,0 +1,10 @@
+ A Doctor can prescribe one or more Drugs for several Patients
+- A Patient can obtain prescriptions from several Doctors
+- Every Patient has a Primary Physician
+- Every Doctor has at least one Patient
+- A Pharmaceutical Company can have several Contracts with different Pharmacies
+- A Pharmacy can sell several Drugs at different prices
+- A Drug is sold by a given Pharmaceutical Company, and the Trade Name identifies a drug uniquely from among the products of that company
+- Each Prescription has a Date and a Quantity associated with it
+- A Pharmaceutical Company can contract with several Pharmaceutical Companies
+- A Pharmacy appoints a Supervisor for each Contract
