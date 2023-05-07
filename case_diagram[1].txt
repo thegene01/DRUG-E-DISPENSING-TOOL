@@ -1,0 +1,49 @@
++-----------------------------------+
+|       DRUG E-DISPENSING TOOL
++-----------------------------------+
+|           <<system>>              |
++-----------------------------------+
+        |                |
+        |                |
++-------+--------+   +-------+--------+    +-------------------+
+|   Pharmacist   |   |     Doctor     |    |Pharmaceutical Co. |
++----------------+   +----------------+    +-------------------+
+|  -View Patient |   |  -View Patien  |    |  -View Orders     |
+|  Prescription  |   |  Profile       |    |  -View Drug       |
+|  -View Drug    |   |  -Make         |    |   Inventory       |
+|  Inventory     |   |  Prescriptions |    |  -Set Drug Prices |
+|  -View Pharma- |   |  -Make         |    |  -Change Password |
+|  ceutical Com- |   |  Profile       |    |  -Log In/Out      |
+|  panies and    |   |  -Change       |    +-------------------+
+|  Order Drugs   |   |  Password      |
+|  -Put Drug     |   |  -Log In/Out   |
+|  Prices        |   +----------------+
+|  -Change       |
+|  Password      |
+|  -Log In/Out   |
++----------------+
+          |
+          |
+   +------v--------+
+   |   Patient     |
+   +---------------+
+   |  -View Their  |
+   |  Prescription |
+   |  -View/Make   |
+   |  Profile      |
+   |  -Request Drug|
+   |  Delivery     |
+   |  -Place Order |
+   |  -Change      |
+   |  Password     |
+   |  -Log In/Out  |
+   +---------------+
+The Pharmacist can view patient prescriptions, view drug inventory, view pharmaceutical companies and order drugs, put drug prices, change password, and log in/out.
+
+The Doctor can view patient profiles, make prescriptions, make their profile, change password, and log in/out.
+
+The Pharmaceutical Company can view orders, view drug inventory, set drug prices, change password, and log in/out.
+
+The Patient can view their prescription, view/make their profile, request drug delivery, place orders, change password, and log in/out.
+
+
