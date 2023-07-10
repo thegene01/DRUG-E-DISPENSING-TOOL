@@ -1,0 +1,51 @@
+body {
+    background-image: url('gene.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: rgba(185, 180, 180, 0.8);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0e0e0e;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #938f8f;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #2c1ec8;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4c4c4d;
+  }
+  

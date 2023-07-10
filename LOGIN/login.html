@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-image: url('gene.png');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .login-container {
+      width: 300px;
+      margin: 150px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the login form element
+      const loginForm = document.getElementById('login-form');
+
+      // Add submit event listener to the form
+      loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Get the selected role from the dropdown
+        const roleSelect = document.getElementById('role-select');
+        const selectedRole = roleSelect.value;
+
+        // Open new window based on the selected role
+        switch (selectedRole) {
+          case 'Doctor':
+            window.open("../DOCTOR/doctor.html", '_blank');
+            break;
+          case 'patient':
+            // Open patient dashboard window or redirect to patient.html
+            window.open('patient.html', '_blank');
+            break;
+          case 'pharmacist':
+            // Open pharmacist dashboard window or redirect to pharmacist.html
+            window.open('pharmacist.html', '_blank');
+            break;
+          case 'pharma-company':
+            // Open pharma company dashboard window or redirect to pharma-company.html
+            window.open('pharma-company.html', '_blank');
+            break;
+          default:
+            // Invalid role selected, handle accordingly
+            break;
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="login-form" action="login.php" method="POST">
+      <div class="form-group">
+        <label for="role-select">Role:</label>
+        <select id="role-select" name="role">
+          <option value="doctor">Doctor</option>
+          <option value="patient">Patient</option>
+          <option value="pharmacist">Pharmacist</option>
+          <option value="pharma-company">Pharma Company</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="../SIGNUP/signup.html">Sign Up</a></p>
+  </div>
+</body>
+</html>
